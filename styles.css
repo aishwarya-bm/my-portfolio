@@ -80,14 +80,12 @@ body{
     padding: 0.5rem;
     color: white;
     border-radius: 0.5rem;
-    font-weight: bold;
 }
 
 .link-secondary{
     padding: 0.5rem;
     color: var(--primary-color);
     border-radius: 0.5rem;
-    font-weight: bold;
     border: 2px solid var(--primary-color);
 }
 
@@ -113,3 +111,26 @@ body{
 .off-white{
     background-color: var(--off-white);
 }
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 0.5rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    margin: 0%;
+    padding-inline-start: 0;
+}
+
+.footer img{
+    width : 25px
+}
+
