@@ -11,6 +11,22 @@ body{
 
 /* header */
 
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    color: #6B7280;
+    padding: 0.5rem 0rem;
+}
+
 /* lists */
 .list-no-bullet{
     list-style: none;
