@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap');
 
 :root{
-    --primary-color:#6366F1;
-    --off-white:#D1D5DB;
+    --primary-color:#FBBF24;
+    /* --primary-color:#6366F1; */
+    /* --primary-color:#111827; */
+    --off-yellow:#FEF3C7;
+    --dark-gray: #6B7280;
 }
 
 body{
@@ -38,10 +41,14 @@ body{
     padding: 0rem 1rem;   
 }
 
+.list-no-bullet li a{
+    margin: 1rem 0.5rem 0.5rem 0rem;
+}
+
 /* navigation */
 .navigation{
     background-color: var(--primary-color);
-    color: white;
+    /* color: white; */
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
@@ -56,7 +63,7 @@ body{
 }
 
 .navigation .link{
-    color:white;
+    color:black;
 }
 
 .navigation .link-active{
@@ -80,12 +87,14 @@ body{
     padding: 0.5rem;
     color: white;
     border-radius: 0.5rem;
+    font-weight: bold;
 }
 
 .link-secondary{
     padding: 0.5rem;
     color: var(--primary-color);
     border-radius: 0.5rem;
+    font-weight: bold;
     border: 2px solid var(--primary-color);
 }
 
@@ -108,8 +117,15 @@ body{
     text-align: center;
 }
 
-.off-white{
-    background-color: var(--off-white);
+.off-yellow{
+    background-color: var(--off-yellow);
+}
+
+
+/* para */
+
+.list-no-bullet .project-text{
+    padding: 0rem 0rem 1rem 0rem;
 }
 
 /* footer */
@@ -117,8 +133,9 @@ body{
     background-color: var(--primary-color);
     padding: 0.5rem 0rem;
     text-align: center;
-    color: white;
+    color: black;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .footer .link{
@@ -133,4 +150,5 @@ body{
 .footer img{
     width : 25px
 }
+\
 
