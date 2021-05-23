@@ -2,6 +2,7 @@
 
 :root{
     --primary-color:#6366F1;
+    --off-white:#D1D5DB;
 }
 
 body{
@@ -71,9 +72,44 @@ body{
 /* links */
 .link{
     text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.link-secondary{
+    padding: 0.5rem;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
 }
 
 /* container */
 .container{
     padding: 0.5rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+} 
+
+/* sections */
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.off-white{
+    background-color: var(--off-white);
 }
