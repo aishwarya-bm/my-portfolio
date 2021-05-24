@@ -20,7 +20,7 @@ body{
 }
 
 .hero .hero-img{
-    max-width: 400px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
@@ -150,5 +150,18 @@ body{
 .footer img{
     width : 25px
 }
-\
+
+/* media query */
+
+@media screen and (max-width: 400px) {
+    
+    .list-item-inline{
+        display: list-item; 
+        /* padding: 0rem 1rem;    */
+    }
+    .hero .hero-img {
+        max-width: 100px;
+    }
+  }
+
 
