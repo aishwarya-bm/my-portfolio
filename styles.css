@@ -155,6 +155,19 @@ body{
 
 /* media query */
 
+@media screen and (max-width: 600px) {
+    
+    .container-center {
+        max-width: 400px;
+        margin: auto;
+    }
+    .link{
+        display: block;
+        margin-bottom: 1rem;
+        width: 8rem;
+    }
+  }
+
 @media screen and (max-width: 400px) {
     
     .list-item-inline{
